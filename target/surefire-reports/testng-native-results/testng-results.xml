@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-01T22:47:31 IST" name="Surefire suite" finished-at="2025-03-01T22:48:04 IST" duration-ms="32444">
+  <suite started-at="2025-03-02T00:10:22 IST" name="Surefire suite" finished-at="2025-03-02T00:10:35 IST" duration-ms="13201">
     <groups>
     </groups>
-    <test started-at="2025-03-01T22:47:31 IST" name="Surefire test" finished-at="2025-03-01T22:48:04 IST" duration-ms="32444">
+    <test started-at="2025-03-02T00:10:22 IST" name="Surefire test" finished-at="2025-03-02T00:10:35 IST" duration-ms="13201">
       <class name="testcases.TestCase_01">
-        <test-method signature="loginWithValidCredential()[pri:0, instance:testcases.TestCase_01@4e91d63f]" started-at="2025-03-01T22:47:31 IST" name="loginWithValidCredential" finished-at="2025-03-01T22:48:04 IST" duration-ms="32408" status="PASS">
+        <test-method signature="loginWithValidCredential()[pri:0, instance:testcases.TestCase_01@318ba8c8]" started-at="2025-03-02T00:10:22 IST" name="loginWithValidCredential" finished-at="2025-03-02T00:10:35 IST" duration-ms="13158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredential -->
