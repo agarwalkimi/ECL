@@ -13,7 +13,7 @@ public class TestCase_01{
 	  ChromeDriver driver = new ChromeDriver();
 	  driver.get("http://52.38.135.214/");
 	  driver.manage().window().maximize();
-//	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  LoginPage lp = new LoginPage(driver);
 	  lp.email("kimi.agarwal@tothenew.com");
 	  lp.password("12345678");
