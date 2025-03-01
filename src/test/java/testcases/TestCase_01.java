@@ -18,6 +18,7 @@ public class TestCase_01{
 	  lp.email("kimi.agarwal@tothenew.com");
 	  lp.password("12345678");
 	  lp.submit();
+	  System.out.println("Logged In successfully");
 	  
   }
 }
