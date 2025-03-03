@@ -7,13 +7,12 @@ import org.testng.annotations.Test;
 
 import pages.LoginPage;
 
-public class TestCase_01 extends BaseTest {
-	@Test
-	public void loginWithValidCredential() throws InterruptedException {
+public class TestCases_02 extends BaseTest {
+  @Test
+  public void loginWithInvalidCredentials() {
 		LoginPage lp= new LoginPage(driver); lp.email("kimi.agarwal@tothenew.com");
-		lp.password("12345678"); 
+		lp.password("1234567"); 
 		lp.submit();
-		System.out.println("Logged In successfully");
-		
-	}
+		System.out.println("Not logged In successfully");
+  }
 }
