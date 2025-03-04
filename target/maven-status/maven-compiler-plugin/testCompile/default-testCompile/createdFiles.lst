@@ -1,3 +1,5 @@
-pages\LoginPage.class
-Demo\ECL\AppTest.class
 testcases\TestCase_01.class
+pages\LoginPage.class
+pages\UserListingPage.class
+testcases\BaseTest.class
+testcases\TestCases_02.class
