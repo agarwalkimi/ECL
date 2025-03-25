@@ -23,4 +23,10 @@ public class LoginPage {
 		WebElement button = driver.findElement(By.xpath(" //button[@type='submit']"));
 		button.click();
 	}
+	
+	public void errorMsg() {
+		WebElement msg = driver.findElement(By.xpath("//div[text()='Invalid email address']"));
+		System.out.println(msg.getText());
+		
+	}
 }

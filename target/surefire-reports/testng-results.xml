@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T14:37:56 IST" name="Surefire suite" finished-at="2025-03-04T14:38:12 IST" duration-ms="16585">
+  <suite started-at="2025-03-04T14:41:10 IST" name="Surefire suite" finished-at="2025-03-04T14:41:25 IST" duration-ms="14988">
     <groups>
     </groups>
-    <test started-at="2025-03-04T14:37:56 IST" name="Surefire test" finished-at="2025-03-04T14:38:12 IST" duration-ms="16585">
+    <test started-at="2025-03-04T14:41:10 IST" name="Surefire test" finished-at="2025-03-04T14:41:25 IST" duration-ms="14988">
       <class name="testcases.TestCase_01">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCase_01@2473d930]" started-at="2025-03-04T14:38:04 IST" name="beforeMethod" finished-at="2025-03-04T14:38:10 IST" duration-ms="5771" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCase_01@2473d930]" started-at="2025-03-04T14:41:17 IST" name="beforeMethod" finished-at="2025-03-04T14:41:22 IST" duration-ms="4927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginWithValidCredential()[pri:0, instance:testcases.TestCase_01@2473d930]" started-at="2025-03-04T14:38:10 IST" name="loginWithValidCredential" finished-at="2025-03-04T14:38:11 IST" duration-ms="858" status="PASS">
+        <test-method signature="loginWithValidCredential()[pri:0, instance:testcases.TestCase_01@2473d930]" started-at="2025-03-04T14:41:22 IST" name="loginWithValidCredential" finished-at="2025-03-04T14:41:23 IST" duration-ms="985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredential -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCase_01@2473d930]" started-at="2025-03-04T14:38:11 IST" name="afterMethod" finished-at="2025-03-04T14:38:12 IST" duration-ms="1102" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCase_01@2473d930]" started-at="2025-03-04T14:41:23 IST" name="afterMethod" finished-at="2025-03-04T14:41:25 IST" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testcases.TestCase_01 -->
       <class name="testcases.TestCases_02">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCases_02@76908cc0]" started-at="2025-03-04T14:37:56 IST" name="beforeMethod" finished-at="2025-03-04T14:38:02 IST" duration-ms="6441" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCases_02@76908cc0]" started-at="2025-03-04T14:41:10 IST" name="beforeMethod" finished-at="2025-03-04T14:41:15 IST" duration-ms="5641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:testcases.TestCases_02@76908cc0]" started-at="2025-03-04T14:38:02 IST" name="loginWithInvalidCredentials" finished-at="2025-03-04T14:38:03 IST" duration-ms="1123" status="PASS">
+        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:testcases.TestCases_02@76908cc0]" started-at="2025-03-04T14:41:15 IST" name="loginWithInvalidCredentials" finished-at="2025-03-04T14:41:17 IST" duration-ms="1039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCases_02@76908cc0]" started-at="2025-03-04T14:38:03 IST" name="afterMethod" finished-at="2025-03-04T14:38:04 IST" duration-ms="1245" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCases_02@76908cc0]" started-at="2025-03-04T14:41:17 IST" name="afterMethod" finished-at="2025-03-04T14:41:17 IST" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

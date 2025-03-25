@@ -11,9 +11,10 @@ public class TestCases_02 extends BaseTest {
   @Test
   public void loginWithInvalidCredentials() {
 		LoginPage lp= new LoginPage(driver); 
-		lp.email("agarwal@tothenew.com");
+		lp.email("kimi.com");
 		lp.password("1234567"); 
 		lp.submit();
+		lp.errorMsg();
 		System.out.println("Not logged In successfully");
   }
 }

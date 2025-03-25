@@ -1,5 +1,7 @@
 package pages;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -23,5 +25,8 @@ public class UserListingPage {
 
 		String ab = driver.findElement(By.xpath("//*[@class='chakra-heading css-1dklj6k']")).getText();
 		System.out.println("refer:"+ab);
+		String expectedTitle = "User Listing";
+		assertEquals(ab, expectedTitle, "Page title does not match the expected value");
+
 	}
 }

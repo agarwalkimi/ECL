@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T14:34:03 IST" name="Default suite" finished-at="2025-03-04T14:34:09 IST" duration-ms="6450">
+  <suite started-at="2025-03-25T10:02:59 IST" name="Suite" finished-at="2025-03-25T10:03:22 IST" duration-ms="22378">
     <groups>
     </groups>
-    <test started-at="2025-03-04T14:34:03 IST" name="Default test" finished-at="2025-03-04T14:34:09 IST" duration-ms="6450">
-      <class name="pages.UserListingPage">
-        <test-method signature="heading()[pri:0, instance:pages.UserListingPage@2a65fe7c]" started-at="2025-03-04T14:34:03 IST" name="heading" finished-at="2025-03-04T14:34:09 IST" duration-ms="6416" status="PASS">
+    <test started-at="2025-03-25T10:02:59 IST" name="Test" finished-at="2025-03-25T10:03:22 IST" duration-ms="22378">
+      <class name="testcases.TestCase_01">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCase_01@55182842]" started-at="2025-03-25T10:02:59 IST" name="beforeMethod" finished-at="2025-03-25T10:03:13 IST" duration-ms="13426" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- heading -->
-      </class> <!-- pages.UserListingPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithValidCredential()[pri:0, instance:testcases.TestCase_01@55182842]" started-at="2025-03-25T10:03:13 IST" name="loginWithValidCredential" finished-at="2025-03-25T10:03:14 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredential -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCase_01@55182842]" started-at="2025-03-25T10:03:14 IST" name="afterMethod" finished-at="2025-03-25T10:03:14 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase_01 -->
+      <class name="testcases.TestCases_02">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCases_02@4c12331b]" started-at="2025-03-25T10:03:14 IST" name="beforeMethod" finished-at="2025-03-25T10:03:20 IST" duration-ms="5644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:testcases.TestCases_02@4c12331b]" started-at="2025-03-25T10:03:20 IST" name="loginWithInvalidCredentials" finished-at="2025-03-25T10:03:21 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCases_02@4c12331b]" started-at="2025-03-25T10:03:21 IST" name="afterMethod" finished-at="2025-03-25T10:03:22 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCases_02 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
